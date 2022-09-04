@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./img/logo.png" alt="prof"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laudantium, sed temporibus ratione est velit reprehenderit, <br> ex recusandae repudiandae cupiditate consequatur quo mollitia eum, odit numquam. Assumenda quos;     
+            </p>
+            <a href="" class="hero-btn">visit us To know more</a>
+        </div>
+
+    </section>
+
+   
+    
+    <!--------Javascript for toggle menu-------->
+
+    <script>
+    
+        var navLink = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLink.style.right ="0";
+        }
+        function hiddenMenu(){
+            navLink.style.right ="-200px";
+        }
+
+    </script>
+    <!--------Courses-------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="courses-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequatur itaque id quia aspernatur voluptatibus fugiat veniam dolorem nemo ad, temporibus animi, incidunt tempora et. Doloribus numquam sapiente distinctio libero.</p>
+            </div>
+            <div class="courses-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequatur itaque id quia aspernatur voluptatibus fugiat veniam dolorem nemo ad, temporibus animi, incidunt tempora et. Doloribus numquam sapiente distinctio libero.</p>
+                </div>
+                <div class="courses-col">
+                        <h3>Post graduation</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam consequatur itaque id quia aspernatur voluptatibus fugiat veniam dolorem nemo ad, temporibus animi, incidunt tempora et. Doloribus numquam sapiente distinctio libero.</p>
+                    </div>
+        </div>
+    </section>
+
+    <!-----campus---->
+    <section class="campus">
+            <h1>Our global campus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./img/ani.jpg">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                        <img src="./img/ani.jpg">
+                        <div class="layer">
+                            <h3>NIGERIA</h3>
+                        </div>
+                    </div>
+
+                    <div class="campus-col">
+                            <img src="./img/ani.jpg">
+                            <div class="layer">
+                                <h3>AUSTRAILIA</h3>
+                            </div>
+                        </div>
+
+            </div>
+    
+        </section>
+
+        <!------Facilities------>
+
+        <scetion class="facilities">
+
+            <h1>Our Facilities</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="./img/ani.jpg">
+                    <h3>World class</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci repellat, nulla inventore, consectetur porro repudiandae, perspiciatis nostrum voluptatum nam ab libero impedit quae pariatur recusandae earum maiores molestias amet?</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./img/ani.jpg">
+                    <h3>food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequatur ad, magni assumenda id asperiores qui tempora ex. Blanditiis repudiandae quaerat nobis? Non, blanditiis voluptatibus! Culpa esse explicabo provident delectus!</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="./img/ani.jpg">
+                    <h3>Playground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem blanditiis similique ad ducimus laudantium. Explicabo id odio ad placeat suscipit, sint, unde neque ex facilis blanditiis consectetur soluta maxime.</p>
+                </div>
+            </div>
+
+
+
+        </scetion>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+</body>
+</html>
